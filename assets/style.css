@@ -1,17 +1,20 @@
 :root[color-mode="dark"]{
---primary:#40514E;
---secondary:#30E3CA;
---third:#11999E;
---text:#E4F9F5;
---fourth:#8baaad;
+--primary:#222629;
+--secondary:#474b4f;
+--third:#61892F;
+--text:#e9e9e9;
+--fourth:#86c232;
 
 }
 :root[color-mode="light"]{
-    --primary:#f4fff8;
-    --secondary:#8baaad;
-    --third: #30E3CA;
-    --text:#000F08;
-    --fourth: #8baaad;
+    --primary:#e9e9e9;
+    --secondary:#86c232;
+    --third: #e9e9e9;
+    --text:#474b4f;
+    --fourth: #61892F;
+}
+p{
+  font-size:24px;
 }
 .hide{
     display:none;
