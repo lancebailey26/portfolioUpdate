@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  
+
 </head>
 
 <body>
@@ -86,6 +86,9 @@
             </div>
           <li class="nav-item">
             <a class="nav-link" href="./blog.html" id="blog">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./resume.html" id="resume">RESUME</a>
           </li>
           <!--- Light mode button --->
           <button class="color-mode__btn light--hidden" aria-label="Toggle light mode"><svg
@@ -164,68 +167,66 @@
       <br>
       <br>
       <p data-aos="fade-up">some of my recent works:</p>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="https://github.com/lancebailey26/dayPlanner" target="_blank">
-              <img class="d-block w-100" src="./assets/images/dayplanner.png" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>dayPlanner</h5>
-                <p>plan your workday.</p>
+      <div class="container-fluid" data-aos="flip-up">
+        <div class="row">
+          <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/images/activityfinderproject.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">activityfinder</h5>
+                <p class="card-text">cure for boredom.</p>
+                <a href="https://github.com/lancebailey26/Team-04-Collaborative_Project_1"
+                  class="btn repo">repo</a>
+                <a href="https://lancebailey26.github.io/Team-04-Collaborative_Project_1/"
+                  class="btn deployed">deployed</a>
               </div>
-            </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <a href="https://github.com/lancebailey26/Team-04-Collaborative_Project_1" target="_blank">
-              <img class="d-block w-100" src="./assets/images/activityfinderproject.png" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>activityFinder</h5>
-                <p>what to do when you are bored.</p>
+          <div class="col-sm-4 d-flex justify-content-center" data-aos="flip-up">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/images/weatherdash.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">weatherDashboard</h5>
+                <p class="card-text">no frills weather app.</p>
+                <a href="https://github.com/lancebailey26/weatherDashboard"
+                  class="btn repo">repo</a>
+                <a href="https://lancebailey26.github.io/weatherDashboard/"
+                  class="btn deployed">deployed</a>
               </div>
-            </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <a href="https://github.com/lancebailey26/weatherDashboard" target="_blank">
-              <img class="d-block w-100" src="./assets/images/weatherdash.png" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>weatherDashboard</h5>
-                <p>simple weather app.</p>
+          <div class="col-sm-4 d-flex justify-content-center" data-aos="flip-up">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/images/dayplanner.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">dayPlanner</h5>
+                <p class="card-text">plan your work day.</p>
+                <a href="https://github.com/lancebailey26/dayPlanner"
+                  class="btn repo">repo</a>
+                <a href="https://lancebailey26.github.io/dayPlanner/"
+                  class="btn deployed">deployed</a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
       </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="./assets/script.js" async defer></script>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <script src="https://momentjs.com/downloads/moment.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="./assets/script.js" async defer></script>
-  </div>
 </body>
 
 </html>
